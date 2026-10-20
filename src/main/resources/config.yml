@@ -1,0 +1,10 @@
+# Icons shown in front of the categories in /settings.
+#   "text <characters>"        -> plain text/emoji glyph
+#   "sprite <atlas> <sprite>"  -> item/block sprite (atlas = blocks or items)
+# The privacy icon is tinted red.
+icons:
+  privacy: "text 🔒"
+  chat: "sprite items item/paper"
+
+# How many seconds you have to type /kill a second time
+kill-confirm-seconds: 10

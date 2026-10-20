@@ -1,0 +1,16 @@
+name: JalebiSettings
+version: '${project.version}'
+main: smp.jalebi.settings.JalebiSettings
+api-version: '1.21.9'
+description: Settings menu, /ping and /kill for Jalebi SMP
+commands:
+  settings:
+    description: Open the settings menu
+    usage: /settings
+    aliases: [setting]
+  ping:
+    description: Show the ping of a player
+    usage: /ping <player>
+  kill:
+    description: Kill yourself
+    usage: /kill
